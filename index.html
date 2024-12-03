@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navbar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="boosttrap.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Mindho</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+
+    <div class="wrapper">
+      <div class="title" style="margin-top: 50px">
+        <h4>FAKTA JOGJAKARTA</h4>
+      </div>
+
+      <div class="card_Container">
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#sultan">
+              <img src="image/hamengkubuwono.jpg" alt="Sultan Hamengkubuwono"/>
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>James Henry <br /><span>Web Analyst</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#makanan">
+              <img src="image/Makanan khas.jpg" alt="Makanan Khas" />
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>John Doe <br /><span>UI/UX Designer</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#adat">
+              <img src="image/Grebeg Maulid.jpg" alt="Grebeg Maulid" />
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>Mykel Smith <br /><span>Front-End Web Developer</span></h3>
+            </div>
+            <ul class="sci">
+              <li style="--i: 1">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li style="--i: 2">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </li>
+              <li style="--i: 3">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="card_Container">
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#wayang">
+              <img src="image/Wayang.jpg" alt="Wayang" />
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>James Henry <br /><span>Web Analyst</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#baju-adat">
+              <img src="image/Baju Adat Yogyakarta.jpg" alt="Baju Adat" />
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>John Doe <br /><span>UI/UX Designer</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imbBx">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#sultan">
+              <img src="image/Joglo Yogyakarta.png" alt="" />
+            </a>
+          </div>
+
+          <div class="content">
+            <div class="contentBx">
+              <h3>Mykel Smith <br /><span>Front-End Web Developer</span></h3>
+            </div>
+            <ul class="sci">
+              <li style="--i: 1">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li style="--i: 2">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </li>
+              <li style="--i: 3">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
