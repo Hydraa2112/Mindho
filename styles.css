@@ -166,9 +166,9 @@ header.sticky ul li a {
   height: auto;
   border-radius: 20px; /* Sudut melengkung pada video */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk estetika */
-}
-  
-  
+  margin-right: 20px;
+}  
+  /*sek margin  */
 
 /* CSS untuk card image */
 .card {
